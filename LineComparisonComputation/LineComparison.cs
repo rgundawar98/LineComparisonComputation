@@ -46,16 +46,19 @@ namespace LineComparisonComputation
             //Comparing two lengths of line using equal operator
             if(Linelength1 == Linelength2)
             {
-                Console.WriteLine("Both the lines are equal");
+                Console.WriteLine("\nBoth the lines are equal");
             }
             else if(Linelength1 > Linelength2)
             {
-                Console.WriteLine("Line one is greater than line second");
+                Console.WriteLine("\nLine one is greater than line second");
             }
             else
             {
-                Console.WriteLine("Both the lines are not equal");
+                Console.WriteLine("\nBoth the lines are not equal");
             }
+
+            //Compairing two length of line using CompareTo() method
+            Console.WriteLine("\nCompaired length will be:"+Linelength1.CompareTo(Linelength2));
         }
     }
 }
